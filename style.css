@@ -1,0 +1,69 @@
+body{
+    font-family: Arial;
+    background: linear-gradient(to right,black,blue,white,brown);
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding: 0px;
+    margin: 10px auto;
+    /* background-color: aqua; */
+    border-radius: 10%;
+}
+table tr td{
+    width: 80px;
+    height: 80px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 15px;
+    background: rgb(107, 206, 82);
+    font-size: 30px;
+    text-align: center;
+}
+table tr td:hover{
+    background: rgb(18, 114, 55);
+    cursor: pointer;
+    /* border-radius: 25px; */
+}
+.but{
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    background-color: rgb(31, 28, 28);
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 75%;
+    cursor: pointer;
+}
+.text{
+    text-align: center;
+    position: absolute;
+    width: auto;
+    top: 20%;
+    left: 50%;
+    font-weight: bold;
+    color: black;
+    font-size: 60px;
+    transform: translate(-50%,-50%);
+}
+.shift{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.text1{
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    font-weight: bold;
+    font-size: 30px;
+}
+.but:hover{
+    background: black;
+}
