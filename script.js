@@ -46,13 +46,6 @@ function switchTurn() {
         document.turn = "X";
         setMessage("It's " + document.turn + "'s turn!");
     }
-    // else if(document.turn == "X"){
-    //     document.turn="O";
-    //     setMessage("It's "+document.turn+"'s Turn...");
-    // }else{
-    //     document.turn="X";
-    //     setMessage("It's "+document.turn+"'s Turn...");
-    // }
 }
 function checkWinner(move) {
     var result = false;
